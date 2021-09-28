@@ -1,0 +1,150 @@
+body{
+        font-family: 'Merriweather Sans', sans-serif;
+        background-image: radial-gradient(circle at 38% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 34% 62%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 3% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 28% 87%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 15% 30%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 64% 45%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 3% 100%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 74% 78%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 92% 23%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 100% 40%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 43% 31%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),linear-gradient(90deg, rgb(164, 0, 244),rgb(57, 10, 184));
+        margin: 0%;
+
+        }
+
+        ::-webkit-scrollbar{
+                display: none;
+        }
+
+        
+.first-section{
+        height: 500px;
+        overflow: hidden;
+        width: 100%;
+        
+        
+          }
+
+
+.firsth1{
+        font-size: 35px;
+        color:#ff6600;
+}
+
+.firsth3{
+        font-size: 20px;
+        color: white;
+}
+
+.firstpara{
+        font-weight: 300px;
+        color: rgb(248, 235, 182);
+}
+
+.linkbutton{
+        text-decoration: none;
+        color: black;
+        background-image: linear-gradient(45deg,#ffff00,#ff6600);
+        padding: 12px 28px;
+        border-radius: 10px;
+}
+
+.linkbutton:hover{
+        background-image: linear-gradient(white,white);
+}
+
+.half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding:2%;
+        text-align: justify;
+        
+       
+}
+
+.first-image img{
+        width:700px;
+        height: 100%;
+        position: relative;
+        right: 120px;
+        
+         }
+
+.second-section{
+        height: 500px;
+        
+}
+
+.secondpara{
+        position: relative;
+        top: 40px;
+}
+.second-image img{
+        height: 100%;
+        width: 700px;
+        position:relative ;
+        right: 100px;
+        bottom: 120px;
+       
+ }
+ .third-section{
+         display: flex;
+         height: 500px;
+         width: 100%;
+
+  }
+
+  .third-image img{
+          height: 100%;
+          width: 100%;
+          position: relative;
+          right: 40px;
+          bottom: 150px;
+          
+  }
+  .thirdpara{
+          position: relative;
+          bottom: 50px;
+  }
+  .box-section{
+          height: 500px;
+          position: relative;
+          bottom: 100px;
+         
+  }
+  .box-class{
+          
+          width: 25%;
+          height: 300px;
+          float: left;
+          padding: 2%;
+          margin: 2%;
+          text-align: justify;
+          background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;
+         box-shadow: 10px 10px 30px rgb(17, 36, 51);
+
+          
+  }
+
+  .box-class:hover{
+        background-image: linear-gradient(45deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%,rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%,rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%,rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%,rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%,rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%,rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%),linear-gradient(67.5deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%,rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%,rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%,rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%,rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%,rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%,rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%),linear-gradient(135deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%,rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%,rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%,rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%,rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%,rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%,rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%),linear-gradient(90deg, rgb(156, 174, 7),rgb(129, 53, 44)); background-blend-mode:overlay,overlay,overlay,normal;
+        
+}
+
+
+  .box-class h2{
+          color: rgb(55, 175, 8);
+  }
+
+  
+  .box-class p{
+          color:rgb(65, 64, 64)
+
+
+  }
+  .box-section h1{
+          color: darkorange;
+          text-align: center;
+          font-size: 50px;
+          padding-top: 50px;
+  }
+
+  footer{
+          text-align: center;
+          font-weight:800px ;
+          color:black;
+  }
